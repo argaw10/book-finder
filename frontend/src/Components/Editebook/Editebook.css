@@ -1,0 +1,36 @@
+
+
+body{
+    padding-left: 3px;
+  }
+  label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    padding: 6px 12px;
+  }
+ 
+   */
+  .error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    display: block;
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-container{
+    margin-top: 40px;
+  }
