@@ -15,7 +15,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
-// 2 Conecting (" process.env.MONGODB_URL")
+// 2 Conecting mongodb
 mongoose.connect('process.env.MONGODB_URI')
 .then(console.log('Database connection is successful!'))
 .catch((err) => console.log('MongoDB connection error:',err));
