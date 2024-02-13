@@ -16,7 +16,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // 2 Conecting MongoDB process.env.MONGo
-mongoose.connect('mongodb+srv://argaw:T0s5dulUxxnAVlWN@books.20i1kvj.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('process.env.MONGODB_URI')
 .then(console.log('Database connection is successful!'))
 .catch((err) => console.log('MongoDB connection error:',err));
 
